@@ -8,7 +8,7 @@ const randomBytesFunctions = {
 
 for (const randomBytesName in randomBytesFunctions) {
   // Both randomBytes and pseudoRandomBytes should provide the same interface
-  var randomBytes = randomBytesFunctions[randomBytesName]
+  const randomBytes = randomBytesFunctions[randomBytesName]
 
   test('get error message', function (t) {
     try {

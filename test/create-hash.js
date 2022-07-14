@@ -21,7 +21,7 @@ function runTest (name, createHash, algorithm) {
       }
       const obj = vectors[i]
 
-      let input = new Buffer(obj.input, 'base64')
+      let input = Buffer.from(obj.input, 'base64')
       let node = obj[algorithm]
       let js = createHash(algorithm).update(input).digest('hex')
       if (js !== node) {
@@ -29,14 +29,14 @@ function runTest (name, createHash, algorithm) {
       }
 
       encodings.forEach(function (encoding) {
-        const input = new Buffer(obj.input, 'base64').toString(encoding)
+        const input = Buffer.from(obj.input, 'base64').toString(encoding)
         const node = obj[algorithm]
         const js = createHash(algorithm).update(input, encoding).digest('hex')
         if (js !== node) {
           t.equal(js, node, algorithm + '(testVector[' + i + '], ' + encoding + ') == ' + node)
         }
       })
-      input = new Buffer(obj.input, 'base64')
+      input = Buffer.from(obj.input, 'base64')
       node = obj[algorithm]
       const hash = createHash(algorithm)
       hash.end(input)
