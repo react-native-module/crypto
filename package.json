@@ -3,18 +3,16 @@
   "name": "@react-native-module/crypto",
   "description": "implementation of crypto for React Native",
   "version": "2.1.1",
+  "main": "index.js",
   "homepage": "https://github.com/react-native-module/crypto",
   "repository": {
     "type": "git",
-    "url": "git://github.com/react-native-module/crypto.git"
+    "url": "https://github.com/react-native-module/crypto.git"
   },
   "scripts": {
     "standard": "standard",
     "test": "npm run standard && npm run unit",
-    "unit": "Echo 'tests not set up for React Native yet'"
-  },
-  "engines": {
-    "node": "*"
+    "unit": "echo 'tests not set up for React Native yet'"
   },
   "dependencies": {
     "browserify-cipher": "^1.0.0",
@@ -39,8 +37,12 @@
   },
   "optionalDependencies": {},
   "keywords": [
+    "react native",
     "react-native",
-    "crypto"
+    "crypto",
+    "ios",
+    "android",
+    "web"
   ],
   "license": "MIT"
 }
