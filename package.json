@@ -1,12 +1,12 @@
 {
-  "author": "Dominic Tarr <dominic.tarr@gmail.com> (dominictarr.com)",
-  "name": "react-native-crypto",
+  "author": "sacru2red <sacru2red@gmail.com>",
+  "name": "@react-native-module/crypto",
   "description": "implementation of crypto for React Native",
   "version": "2.1.1",
-  "homepage": "https://github.com/mvayngrib/react-native-crypto",
+  "homepage": "https://github.com/react-native-module/crypto",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mvayngrib/react-native-crypto.git"
+    "url": "git://github.com/react-native-module/crypto.git"
   },
   "scripts": {
     "standard": "standard",
@@ -40,8 +40,7 @@
   "optionalDependencies": {},
   "keywords": [
     "react-native",
-    "react-component",
-    "ios"
+    "crypto"
   ],
   "license": "MIT"
 }
