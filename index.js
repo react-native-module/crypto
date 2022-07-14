@@ -1,4 +1,4 @@
-import { randomBytes } from 'react-native-randombytes'
+import { randomBytes } from '@react-native-module/randombytes'
 exports.randomBytes = exports.rng = exports.pseudoRandomBytes = exports.prng = randomBytes
 
 // implement window.getRandomValues(), for packages that rely on it
