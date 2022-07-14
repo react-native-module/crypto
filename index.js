@@ -1,5 +1,3 @@
-'use strict'
-
 import { randomBytes } from 'react-native-randombytes'
 exports.randomBytes = exports.rng = exports.pseudoRandomBytes = exports.prng = randomBytes
 
