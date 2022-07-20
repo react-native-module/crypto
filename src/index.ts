@@ -2,7 +2,7 @@ import createHashModule from 'create-hash'
 import createHmacModule from 'create-hmac'
 import randomBytesModule from '@react-native-module/randombytes'
 import signAlogos from 'browserify-sign/browser/algorithms.json'
-import pbkdf2Module from '@react-native-module/pbkdf2'
+import { pbkdf2 as pbkdf2Ori, pbkdf2Sync as pbkdf2SyncOri } from '@react-native-module/pbkdf2'
 import aes from 'browserify-cipher'
 import dh from 'diffie-hellman'
 import sign from 'browserify-sign'
@@ -22,8 +22,8 @@ const hashes = ['sha1', 'sha224', 'sha256', 'sha384', 'sha512', 'md5', 'rmd160']
 export function getHashes (): string[] {
   return hashes
 }
-export const pbkdf2 = pbkdf2Module.pbkdf2
-export const pbkdf2Sync = pbkdf2Module.pbkdf2Sync
+export const pbkdf2 = pbkdf2Ori
+export const pbkdf2Sync = pbkdf2SyncOri
 
 export const Cipher = aes.Cipher
 export const createCipher = aes.createCipher

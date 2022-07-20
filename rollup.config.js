@@ -21,6 +21,7 @@ export default inputSrc
       preserveModules: true,
       external: [
         "@react-native-module/randombytes",
+        '@react-native-module/pbkdf2',
         "browserify-cipher",
         "browserify-sign",
         'browserify-sign/browser/algorithms.json',
@@ -32,6 +33,7 @@ export default inputSrc
         "inherits",
         "pbkdf2",
         "public-encrypt",
+        'react-native'
       ],
       plugins: [
         json(),
