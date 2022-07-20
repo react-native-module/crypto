@@ -2,7 +2,7 @@
   "author": "sacru2red <sacru2red@gmail.com>",
   "name": "@react-native-module/crypto",
   "description": "implementation of crypto for React Native",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "main": "lib/cjs/index.js",
   "module": "lib/es/index.js",
   "types": "lib/types/index.d.ts",
