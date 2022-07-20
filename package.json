@@ -33,6 +33,9 @@
     "tape": "~2.3.2",
     "zuul": "^3.12.0"
   },
+  "peerDependencies": {
+    "react-native": "*"
+  },
   "keywords": [
     "react native",
     "react-native",

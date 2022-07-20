@@ -13,6 +13,8 @@ Use this module if you are considering other platforms
 
 ## Install
 
+This module has peerDependency "react-native"
+
 A typical workflow:
 
 ```
