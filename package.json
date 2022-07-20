@@ -6,10 +6,11 @@
   "main": "lib/cjs/index.js",
   "module": "lib/es/index.js",
   "types": "lib/types/index.d.ts",
+  "source": "src/index",
   "homepage": "https://github.com/react-native-module/crypto",
   "repository": {
     "type": "git",
-    "url": "https://github.com/react-native-module/crypto.git"
+    "url": "git+https://github.com/react-native-module/crypto.git"
   },
   "scripts": {
     "lint": "eslint",
