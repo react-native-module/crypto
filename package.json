@@ -20,7 +20,8 @@
     "unit": "echo 'tests not set up for React Native yet'"
   },
   "dependencies": {
-    "@react-native-module/randombytes": "^3.6.5",
+    "@react-native-module/pbkdf2": "^0.3.7",
+    "@react-native-module/randombytes": "^3.6.6-3",
     "browserify-cipher": "^1.0.0",
     "browserify-sign": "^4.0.4",
     "create-ecdh": "^4.0.0",
@@ -28,7 +29,6 @@
     "create-hmac": "^1.1.0",
     "diffie-hellman": "^5.0.0",
     "inherits": "^2.0.1",
-    "pbkdf2": "^3.1.2",
     "public-encrypt": "^4.0.0"
   },
   "devDependencies": {
