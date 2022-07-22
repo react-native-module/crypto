@@ -7,6 +7,7 @@
   "module": "lib/es/index.js",
   "types": "lib/types/index.d.ts",
   "source": "src/index",
+  "react-native": "src/index.ts",
   "homepage": "https://github.com/react-native-module/crypto",
   "repository": {
     "type": "git",
@@ -22,7 +23,7 @@
   },
   "dependencies": {
     "@react-native-module/pbkdf2": "^0.3.7",
-    "@react-native-module/randombytes": "^3.6.6-3",
+    "@react-native-module/randombytes": "^3.6.6-4",
     "browserify-cipher": "^1.0.0",
     "browserify-sign": "^4.0.4",
     "create-ecdh": "^4.0.0",
