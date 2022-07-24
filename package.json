@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@react-native-module/pbkdf2": "^0.3.7",
-    "@react-native-module/randombytes": "^3.6.6-4",
+    "@react-native-module/randombytes": "^3.6.6-5",
     "browserify-cipher": "^1.0.0",
     "browserify-sign": "^4.0.4",
     "create-ecdh": "^4.0.0",
