@@ -56,7 +56,8 @@
     "zuul": "^3.12.0"
   },
   "peerDependencies": {
-    "react-native": "*"
+    "react-native": "*",
+    "react": "*"
   },
   "keywords": [
     "react native",
