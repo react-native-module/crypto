@@ -13,7 +13,7 @@ Use this module if you are considering other platforms
 
 ## Install
 
-This module has peerDependency "react-native"
+This module has peerDependency "react", "react-native", "@react-native-module/pbkdf2"
 
 A typical workflow:
 
