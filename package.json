@@ -22,7 +22,6 @@
     "unit": "echo 'tests not set up for React Native yet'"
   },
   "dependencies": {
-    "@react-native-module/pbkdf2": "^0.4.1",
     "@react-native-module/randombytes": "^4.0.0",
     "browserify-cipher": "^1.0.0",
     "browserify-sign": "^4.0.4",
@@ -56,6 +55,7 @@
     "zuul": "^3.12.0"
   },
   "peerDependencies": {
+    "@react-native-module/pbkdf2": "*",
     "react": "*",
     "react-native": "*"
   },

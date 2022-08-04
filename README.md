@@ -13,16 +13,16 @@ Use this module if you are considering other platforms
 
 ## Install
 
-This module has peerDependency "react", "react-native"
+This module has peerDependency "react", "react-native", "@react-native-module/pbkdf2"
 
 A typical workflow:
 
 ```
-npm i --save @react-native-module/crypto
+npm i --save @react-native-module/crypto @react-native-module/pbkdf2
 ```
 
 ```
-yarn add @react-native-module/crypto
+yarn add @react-native-module/crypto @react-native-module/pbkdf2
 ```
 
 ## List of Support node's features
