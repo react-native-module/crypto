@@ -22,7 +22,7 @@
     "unit": "echo 'tests not set up for React Native yet'"
   },
   "dependencies": {
-    "@react-native-module/pbkdf2": "^0.3.9",
+    "@react-native-module/pbkdf2": "^0.3.12",
     "@react-native-module/randombytes": "^3.6.7-1",
     "browserify-cipher": "^1.0.0",
     "browserify-sign": "^4.0.4",
