@@ -31,7 +31,6 @@ export default inputSrc
         "diffie-hellman",
         "elliptic",
         "inherits",
-        "pbkdf2",
         "public-encrypt",
         'react-native'
       ],
